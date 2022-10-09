@@ -1,3 +1,3 @@
 # mico
 
-learning
+uploding my first github project
