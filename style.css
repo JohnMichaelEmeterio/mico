@@ -1,5 +1,10 @@
  nav {
+     position: relative;
      text-align: center;
+ }
+ .navpad {
+    border-style: solid;
+    border-color: red;
  }
  a {
      text-decoration: none;
@@ -31,11 +36,11 @@
      background-color: #1e241e;
      margin: 6px;
      font-size: 20px;
-     min-height: 480px;
+     min-height: 475px;
      min-width: 30px;
+     top: 120px;
      background-image: url('https://cdn-icons-png.flaticon.com/128/4549/4549612.png');
  }
-
  .red-text {
      color: crimson;
  }
@@ -52,37 +57,34 @@
      color: yellow;
  }
 
- .img1 {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
+.img1 {
+     position: center; 
  }
-
 .email {
-      position: absolute;
-      left: 376px;
+      position: relative;
+      text-align: center;
       top: 190px;
   }
 .email2 {
-     position: absolute;
-     left: 473px;
-     top: 150px;
+     position: relative;
+     text-align: center;
+     top: 70px;
  }
 
- .text1 {
-     position: absolute;
-     left: 320px;
+.text1 {
+     position: relative;
+     text-align: center;
      top: 70px;
  }
 .name {
-    position: absolute;
-    left: 344px;
+    position: relative;
+    text-align: center;
     top: 90px;
 }
 .name2 {
-    position: absolute;
-    left: 94px;
-    top: 190px;
+    position: relative;
+    text-align: center;
+    top: 140px;
 }
  .act:target {
      background-color: yellow;
